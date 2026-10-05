@@ -1,0 +1,19 @@
+LAST SEEN   TYPE     REASON              OBJECT                         MESSAGE
+0s          Normal   Scheduled           pod/driftapp-5594586b-zfjd6    Successfully assigned driftapp-on/driftapp-5594586b-zfjd6 to drift-lab-control-plane
+3s          Normal   Scheduled           pod/curlprobe-43101            Successfully assigned driftapp-on/curlprobe-43101 to drift-lab-control-plane
+0s          Normal   Scheduled           pod/driftapp-5594586b-sx8kx    Successfully assigned driftapp-on/driftapp-5594586b-sx8kx to drift-lab-control-plane
+3s          Normal   Created             pod/curlprobe-43101            Created container: curlprobe-43101
+3s          Normal   Pulled              pod/curlprobe-43101            Container image "curlimages/curl:8.10.1" already present on machine
+3s          Normal   Started             pod/curlprobe-43101            Started container curlprobe-43101
+1s          Normal   SuccessfulCreate    replicaset/driftapp-5594586b   Created pod: driftapp-5594586b-sx8kx
+1s          Normal   ScalingReplicaSet   deployment/driftapp            Scaled down replica set driftapp-5594586b from 3 to 1
+1s          Normal   SuccessfulCreate    replicaset/driftapp-5594586b   Created pod: driftapp-5594586b-zfjd6
+1s          Normal   SuccessfulDelete    replicaset/driftapp-5594586b   Deleted pod: driftapp-5594586b-sx8kx
+1s          Normal   SuccessfulDelete    replicaset/driftapp-5594586b   Deleted pod: driftapp-5594586b-zfjd6
+1s          Normal   ScalingReplicaSet   deployment/driftapp            Scaled up replica set driftapp-5594586b from 1 to 3
+0s          Normal   Started             pod/driftapp-5594586b-sx8kx    Started container driftapp
+0s          Normal   Created             pod/driftapp-5594586b-sx8kx    Created container: driftapp
+0s          Normal   Pulled              pod/driftapp-5594586b-sx8kx    Container image "driftapp:dev" already present on machine
+0s          Normal   Started             pod/driftapp-5594586b-zfjd6    Started container driftapp
+0s          Normal   Created             pod/driftapp-5594586b-zfjd6    Created container: driftapp
+0s          Normal   Pulled              pod/driftapp-5594586b-zfjd6    Container image "driftapp:dev" already present on machine

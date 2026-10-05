@@ -1,0 +1,6 @@
+
+===== apps/Deployment driftapp-on/driftapp ======
+151c151
+<   replicas: 3
+---
+>   replicas: 1

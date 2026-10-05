@@ -1,0 +1,33 @@
+LAST SEEN   TYPE     REASON              OBJECT                         MESSAGE
+5m11s       Normal   Scheduled           pod/driftapp-5594586b-sx8kx    Successfully assigned driftapp-on/driftapp-5594586b-sx8kx to drift-lab-control-plane
+2m3s        Normal   Scheduled           pod/curlprobe-45558            Successfully assigned driftapp-on/curlprobe-45558 to drift-lab-control-plane
+5m10s       Normal   Scheduled           pod/curlprobe-43453            Successfully assigned driftapp-on/curlprobe-43453 to drift-lab-control-plane
+5m11s       Normal   Scheduled           pod/driftapp-5594586b-zfjd6    Successfully assigned driftapp-on/driftapp-5594586b-zfjd6 to drift-lab-control-plane
+5m13s       Normal   Scheduled           pod/curlprobe-43101            Successfully assigned driftapp-on/curlprobe-43101 to drift-lab-control-plane
+4m36s       Normal   Scheduled           pod/curlprobe-44475            Successfully assigned driftapp-on/curlprobe-44475 to drift-lab-control-plane
+5m13s       Normal   Created             pod/curlprobe-43101            Created container: curlprobe-43101
+5m13s       Normal   Started             pod/curlprobe-43101            Started container curlprobe-43101
+5m13s       Normal   Pulled              pod/curlprobe-43101            Container image "curlimages/curl:8.10.1" already present on machine
+5m11s       Normal   SuccessfulDelete    replicaset/driftapp-5594586b   Deleted pod: driftapp-5594586b-zfjd6
+5m11s       Normal   SuccessfulCreate    replicaset/driftapp-5594586b   Created pod: driftapp-5594586b-zfjd6
+5m11s       Normal   ScalingReplicaSet   deployment/driftapp            Scaled up replica set driftapp-5594586b from 1 to 3
+5m11s       Normal   SuccessfulDelete    replicaset/driftapp-5594586b   Deleted pod: driftapp-5594586b-sx8kx
+5m11s       Normal   SuccessfulCreate    replicaset/driftapp-5594586b   Created pod: driftapp-5594586b-sx8kx
+5m11s       Normal   ScalingReplicaSet   deployment/driftapp            Scaled down replica set driftapp-5594586b from 3 to 1
+5m10s       Normal   Created             pod/curlprobe-43453            Created container: curlprobe-43453
+5m10s       Normal   Started             pod/driftapp-5594586b-zfjd6    Started container driftapp
+5m10s       Normal   Pulled              pod/driftapp-5594586b-sx8kx    Container image "driftapp:dev" already present on machine
+5m10s       Normal   Created             pod/driftapp-5594586b-sx8kx    Created container: driftapp
+5m10s       Normal   Started             pod/driftapp-5594586b-sx8kx    Started container driftapp
+5m10s       Normal   Killing             pod/driftapp-5594586b-zfjd6    Stopping container driftapp
+5m10s       Normal   Pulled              pod/curlprobe-43453            Container image "curlimages/curl:8.10.1" already present on machine
+5m10s       Normal   Pulled              pod/driftapp-5594586b-zfjd6    Container image "driftapp:dev" already present on machine
+5m10s       Normal   Created             pod/driftapp-5594586b-zfjd6    Created container: driftapp
+5m9s        Normal   Started             pod/curlprobe-43453            Started container curlprobe-43453
+5m9s        Normal   Killing             pod/driftapp-5594586b-sx8kx    Stopping container driftapp
+4m36s       Normal   Created             pod/curlprobe-44475            Created container: curlprobe-44475
+4m36s       Normal   Pulled              pod/curlprobe-44475            Container image "curlimages/curl:8.10.1" already present on machine
+4m36s       Normal   Started             pod/curlprobe-44475            Started container curlprobe-44475
+2m3s        Normal   Pulled              pod/curlprobe-45558            Container image "curlimages/curl:8.10.1" already present on machine
+2m3s        Normal   Started             pod/curlprobe-45558            Started container curlprobe-45558
+2m3s        Normal   Created             pod/curlprobe-45558            Created container: curlprobe-45558

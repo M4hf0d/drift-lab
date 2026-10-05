@@ -1,0 +1,18 @@
+
+===== /Service driftapp-on/driftapp ======
+0a1,15
+> apiVersion: v1
+> kind: Service
+> metadata:
+>   annotations:
+>     argocd.argoproj.io/tracking-id: driftapp-selfheal-on:/Service:driftapp-on/driftapp
+>   labels:
+>     app: driftapp
+>   name: driftapp
+>   namespace: driftapp-on
+> spec:
+>   ports:
+>   - port: 80
+>     targetPort: 8080
+>   selector:
+>     app: driftapp

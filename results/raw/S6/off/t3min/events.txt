@@ -1,0 +1,211 @@
+LAST SEEN   TYPE      REASON              OBJECT                           MESSAGE
+8m35s       Normal    Scheduled           pod/driftapp-59cb9c49d9-tbpnq    Successfully assigned driftapp-off/driftapp-59cb9c49d9-tbpnq to drift-lab-control-plane
+47m         Normal    Scheduled           pod/curlprobe-7408               Successfully assigned driftapp-off/curlprobe-7408 to drift-lab-control-plane
+14m         Normal    Scheduled           pod/curlprobe-23312              Successfully assigned driftapp-off/curlprobe-23312 to drift-lab-control-plane
+42m         Normal    Scheduled           pod/driftapp-5594586b-hphkj      Successfully assigned driftapp-off/driftapp-5594586b-hphkj to drift-lab-control-plane
+25m         Normal    Scheduled           pod/curlprobe-15903              Successfully assigned driftapp-off/curlprobe-15903 to drift-lab-control-plane
+14m         Normal    Scheduled           pod/curlprobe-22730              Successfully assigned driftapp-off/curlprobe-22730 to drift-lab-control-plane
+20m         Normal    Scheduled           pod/driftapp-5594586b-z7ssg      Successfully assigned driftapp-off/driftapp-5594586b-z7ssg to drift-lab-control-plane
+16m         Normal    Scheduled           pod/curlprobe-21880              Successfully assigned driftapp-off/curlprobe-21880 to drift-lab-control-plane
+36m         Normal    Scheduled           pod/curlprobe-11367              Successfully assigned driftapp-off/curlprobe-11367 to drift-lab-control-plane
+19m         Normal    Scheduled           pod/curlprobe-20838              Successfully assigned driftapp-off/curlprobe-20838 to drift-lab-control-plane
+19m         Normal    Scheduled           pod/curlprobe-20247              Successfully assigned driftapp-off/curlprobe-20247 to drift-lab-control-plane
+8m38s       Normal    Scheduled           pod/curlprobe-25448              Successfully assigned driftapp-off/curlprobe-25448 to drift-lab-control-plane
+36m         Normal    Scheduled           pod/curlprobe-11725              Successfully assigned driftapp-off/curlprobe-11725 to drift-lab-control-plane
+20m         Normal    Scheduled           pod/curlprobe-19548              Successfully assigned driftapp-off/curlprobe-19548 to drift-lab-control-plane
+31m         Normal    Scheduled           pod/driftapp-7475776445-8f67x    Successfully assigned driftapp-off/driftapp-7475776445-8f67x to drift-lab-control-plane
+20m         Normal    Scheduled           pod/curlprobe-18971              Successfully assigned driftapp-off/curlprobe-18971 to drift-lab-control-plane
+35m         Normal    Scheduled           pod/curlprobe-12432              Successfully assigned driftapp-off/curlprobe-12432 to drift-lab-control-plane
+46m         Normal    Scheduled           pod/curlprobe-8079               Successfully assigned driftapp-off/curlprobe-8079 to drift-lab-control-plane
+42m         Normal    Scheduled           pod/driftapp-5594586b-7q645      Successfully assigned driftapp-off/driftapp-5594586b-7q645 to drift-lab-control-plane
+8m33s       Normal    Scheduled           pod/curlprobe-25448              Successfully assigned driftapp-off/curlprobe-25448 to drift-lab-control-plane
+33m         Normal    Scheduled           pod/curlprobe-13027              Successfully assigned driftapp-off/curlprobe-13027 to drift-lab-control-plane
+8m30s       Normal    Scheduled           pod/curlprobe-26193              Successfully assigned driftapp-off/curlprobe-26193 to drift-lab-control-plane
+22m         Normal    Scheduled           pod/curlprobe-18123              Successfully assigned driftapp-off/curlprobe-18123 to drift-lab-control-plane
+3m18s       Normal    Scheduled           pod/curlprobe-28787              Successfully assigned driftapp-off/curlprobe-28787 to drift-lab-control-plane
+31m         Normal    Scheduled           pod/curlprobe-13408              Successfully assigned driftapp-off/curlprobe-13408 to drift-lab-control-plane
+36m         Normal    Scheduled           pod/driftapp-5594586b-74w7h      Successfully assigned driftapp-off/driftapp-5594586b-74w7h to drift-lab-control-plane
+42m         Normal    Scheduled           pod/curlprobe-8956               Successfully assigned driftapp-off/curlprobe-8956 to drift-lab-control-plane
+7m56s       Normal    Scheduled           pod/curlprobe-26716              Successfully assigned driftapp-off/curlprobe-26716 to drift-lab-control-plane
+31m         Normal    Scheduled           pod/curlprobe-13963              Successfully assigned driftapp-off/curlprobe-13963 to drift-lab-control-plane
+2m33s       Normal    Scheduled           pod/curlprobe-30329              Successfully assigned driftapp-off/curlprobe-30329 to drift-lab-control-plane
+42m         Normal    Scheduled           pod/curlprobe-9307               Successfully assigned driftapp-off/curlprobe-9307 to drift-lab-control-plane
+25m         Normal    Scheduled           pod/curlprobe-17293              Successfully assigned driftapp-off/curlprobe-17293 to drift-lab-control-plane
+31m         Normal    Scheduled           pod/curlprobe-14322              Successfully assigned driftapp-off/curlprobe-14322 to drift-lab-control-plane
+36m         Normal    Scheduled           pod/driftapp-5594586b-5wptr      Successfully assigned driftapp-off/driftapp-5594586b-5wptr to drift-lab-control-plane
+3m7s        Normal    Scheduled           pod/curlprobe-29733              Successfully assigned driftapp-off/curlprobe-29733 to drift-lab-control-plane
+25m         Normal    Scheduled           pod/curlprobe-16988              Successfully assigned driftapp-off/curlprobe-16988 to drift-lab-control-plane
+30m         Normal    Scheduled           pod/curlprobe-15043              Successfully assigned driftapp-off/curlprobe-15043 to drift-lab-control-plane
+41m         Normal    Scheduled           pod/curlprobe-9829               Successfully assigned driftapp-off/curlprobe-9829 to drift-lab-control-plane
+39m         Normal    Scheduled           pod/curlprobe-10334              Successfully assigned driftapp-off/curlprobe-10334 to drift-lab-control-plane
+3m10s       Normal    Scheduled           pod/curlprobe-29362              Successfully assigned driftapp-off/curlprobe-29362 to drift-lab-control-plane
+28m         Normal    Scheduled           pod/curlprobe-15529              Successfully assigned driftapp-off/curlprobe-15529 to drift-lab-control-plane
+5m22s       Normal    Scheduled           pod/curlprobe-27926              Successfully assigned driftapp-off/curlprobe-27926 to drift-lab-control-plane
+25m         Normal    Scheduled           pod/curlprobe-16461              Successfully assigned driftapp-off/curlprobe-16461 to drift-lab-control-plane
+47m         Normal    Scheduled           pod/driftapp-5594586b-4kfqz      Successfully assigned driftapp-off/driftapp-5594586b-4kfqz to drift-lab-control-plane
+37m         Normal    Scheduled           pod/curlprobe-10704              Successfully assigned driftapp-off/curlprobe-10704 to drift-lab-control-plane
+47m         Normal    ScalingReplicaSet   deployment/driftapp              Scaled up replica set driftapp-5594586b from 0 to 1
+47m         Normal    Pulled              pod/driftapp-5594586b-4kfqz      Container image "driftapp:dev" already present on machine
+47m         Normal    Created             pod/driftapp-5594586b-4kfqz      Created container: driftapp
+47m         Normal    Started             pod/driftapp-5594586b-4kfqz      Started container driftapp
+47m         Normal    SuccessfulCreate    replicaset/driftapp-5594586b     Created pod: driftapp-5594586b-4kfqz
+47m         Normal    Pulling             pod/curlprobe-7408               Pulling image "curlimages/curl:8.10.1"
+47m         Normal    Started             pod/curlprobe-7408               Started container curlprobe-7408
+47m         Normal    Created             pod/curlprobe-7408               Created container: curlprobe-7408
+47m         Normal    Pulled              pod/curlprobe-7408               Successfully pulled image "curlimages/curl:8.10.1" in 3.255s (3.255s including waiting). Image size: 9414401 bytes.
+46m         Normal    Created             pod/curlprobe-8079               Created container: curlprobe-8079
+46m         Normal    Pulled              pod/curlprobe-8079               Container image "curlimages/curl:8.10.1" already present on machine
+46m         Normal    Started             pod/curlprobe-8079               Started container curlprobe-8079
+42m         Normal    Created             pod/curlprobe-8956               Created container: curlprobe-8956
+42m         Normal    Pulled              pod/curlprobe-8956               Container image "curlimages/curl:8.10.1" already present on machine
+42m         Normal    Started             pod/curlprobe-8956               Started container curlprobe-8956
+42m         Normal    SuccessfulCreate    replicaset/driftapp-5594586b     Created pod: driftapp-5594586b-hphkj
+42m         Normal    SuccessfulCreate    replicaset/driftapp-5594586b     Created pod: driftapp-5594586b-7q645
+42m         Normal    Started             pod/driftapp-5594586b-hphkj      Started container driftapp
+42m         Normal    Created             pod/driftapp-5594586b-hphkj      Created container: driftapp
+42m         Normal    Pulled              pod/driftapp-5594586b-hphkj      Container image "driftapp:dev" already present on machine
+42m         Normal    Pulled              pod/driftapp-5594586b-7q645      Container image "driftapp:dev" already present on machine
+42m         Normal    Created             pod/driftapp-5594586b-7q645      Created container: driftapp
+42m         Normal    Started             pod/driftapp-5594586b-7q645      Started container driftapp
+42m         Normal    Pulled              pod/curlprobe-9307               Container image "curlimages/curl:8.10.1" already present on machine
+42m         Normal    Created             pod/curlprobe-9307               Created container: curlprobe-9307
+42m         Normal    Started             pod/curlprobe-9307               Started container curlprobe-9307
+41m         Normal    Started             pod/curlprobe-9829               Started container curlprobe-9829
+41m         Normal    Created             pod/curlprobe-9829               Created container: curlprobe-9829
+41m         Normal    Pulled              pod/curlprobe-9829               Container image "curlimages/curl:8.10.1" already present on machine
+39m         Normal    Pulled              pod/curlprobe-10334              Container image "curlimages/curl:8.10.1" already present on machine
+39m         Normal    Started             pod/curlprobe-10334              Started container curlprobe-10334
+39m         Normal    Created             pod/curlprobe-10334              Created container: curlprobe-10334
+37m         Normal    Pulled              pod/curlprobe-10704              Container image "curlimages/curl:8.10.1" already present on machine
+37m         Normal    Started             pod/curlprobe-10704              Started container curlprobe-10704
+37m         Normal    Created             pod/curlprobe-10704              Created container: curlprobe-10704
+36m         Normal    Killing             pod/driftapp-5594586b-hphkj      Stopping container driftapp
+36m         Normal    SuccessfulDelete    replicaset/driftapp-5594586b     Deleted pod: driftapp-5594586b-7q645
+36m         Normal    SuccessfulDelete    replicaset/driftapp-5594586b     Deleted pod: driftapp-5594586b-hphkj
+36m         Normal    Killing             pod/driftapp-5594586b-7q645      Stopping container driftapp
+36m         Normal    Pulled              pod/curlprobe-11367              Container image "curlimages/curl:8.10.1" already present on machine
+36m         Normal    Created             pod/curlprobe-11367              Created container: curlprobe-11367
+36m         Normal    Started             pod/curlprobe-11367              Started container curlprobe-11367
+36m         Normal    ScalingReplicaSet   deployment/driftapp              Scaled up replica set driftapp-5594586b from 1 to 3
+36m         Normal    SuccessfulCreate    replicaset/driftapp-5594586b     Created pod: driftapp-5594586b-74w7h
+36m         Normal    SuccessfulCreate    replicaset/driftapp-5594586b     Created pod: driftapp-5594586b-5wptr
+36m         Normal    Started             pod/driftapp-5594586b-5wptr      Started container driftapp
+36m         Normal    Started             pod/driftapp-5594586b-74w7h      Started container driftapp
+36m         Normal    Pulled              pod/driftapp-5594586b-5wptr      Container image "driftapp:dev" already present on machine
+36m         Normal    Created             pod/driftapp-5594586b-5wptr      Created container: driftapp
+36m         Normal    Pulled              pod/driftapp-5594586b-74w7h      Container image "driftapp:dev" already present on machine
+36m         Normal    Created             pod/driftapp-5594586b-74w7h      Created container: driftapp
+36m         Normal    Started             pod/curlprobe-11725              Started container curlprobe-11725
+36m         Normal    Created             pod/curlprobe-11725              Created container: curlprobe-11725
+36m         Normal    Pulled              pod/curlprobe-11725              Container image "curlimages/curl:8.10.1" already present on machine
+35m         Normal    Created             pod/curlprobe-12432              Created container: curlprobe-12432
+35m         Normal    Started             pod/curlprobe-12432              Started container curlprobe-12432
+35m         Normal    Pulled              pod/curlprobe-12432              Container image "curlimages/curl:8.10.1" already present on machine
+33m         Normal    Started             pod/curlprobe-13027              Started container curlprobe-13027
+33m         Normal    Pulled              pod/curlprobe-13027              Container image "curlimages/curl:8.10.1" already present on machine
+33m         Normal    Created             pod/curlprobe-13027              Created container: curlprobe-13027
+31m         Normal    Pulled              pod/curlprobe-13408              Container image "curlimages/curl:8.10.1" already present on machine
+31m         Normal    Created             pod/curlprobe-13408              Created container: curlprobe-13408
+31m         Normal    Started             pod/curlprobe-13408              Started container curlprobe-13408
+31m         Normal    Killing             pod/driftapp-5594586b-5wptr      Stopping container driftapp
+31m         Normal    Killing             pod/driftapp-5594586b-74w7h      Stopping container driftapp
+31m         Normal    SuccessfulDelete    replicaset/driftapp-5594586b     Deleted pod: driftapp-5594586b-74w7h
+31m         Normal    ScalingReplicaSet   deployment/driftapp              Scaled down replica set driftapp-5594586b from 3 to 1
+31m         Normal    SuccessfulDelete    replicaset/driftapp-5594586b     Deleted pod: driftapp-5594586b-5wptr
+31m         Normal    Pulled              pod/curlprobe-13963              Container image "curlimages/curl:8.10.1" already present on machine
+31m         Normal    Started             pod/curlprobe-13963              Started container curlprobe-13963
+31m         Normal    Created             pod/curlprobe-13963              Created container: curlprobe-13963
+31m         Normal    SuccessfulCreate    replicaset/driftapp-7475776445   Created pod: driftapp-7475776445-8f67x
+31m         Normal    ScalingReplicaSet   deployment/driftapp              Scaled up replica set driftapp-7475776445 from 0 to 1
+31m         Normal    Started             pod/curlprobe-14322              Started container curlprobe-14322
+31m         Normal    Created             pod/curlprobe-14322              Created container: curlprobe-14322
+31m         Normal    Pulled              pod/curlprobe-14322              Container image "curlimages/curl:8.10.1" already present on machine
+30m         Normal    Started             pod/curlprobe-15043              Started container curlprobe-15043
+30m         Normal    Pulled              pod/curlprobe-15043              Container image "curlimages/curl:8.10.1" already present on machine
+30m         Normal    Created             pod/curlprobe-15043              Created container: curlprobe-15043
+28m         Normal    Pulling             pod/driftapp-7475776445-8f67x    Pulling image "driftapp:drifted"
+28m         Warning   Failed              pod/driftapp-7475776445-8f67x    Failed to pull image "driftapp:drifted": failed to pull and unpack image "docker.io/library/driftapp:drifted": failed to resolve reference "docker.io/library/driftapp:drifted": pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed
+28m         Warning   Failed              pod/driftapp-7475776445-8f67x    Error: ErrImagePull
+28m         Normal    Pulled              pod/curlprobe-15529              Container image "curlimages/curl:8.10.1" already present on machine
+28m         Normal    Created             pod/curlprobe-15529              Created container: curlprobe-15529
+28m         Normal    Started             pod/curlprobe-15529              Started container curlprobe-15529
+26m         Warning   Failed              pod/driftapp-7475776445-8f67x    Error: ImagePullBackOff
+26m         Normal    BackOff             pod/driftapp-7475776445-8f67x    Back-off pulling image "driftapp:drifted"
+25m         Normal    Created             pod/curlprobe-15903              Created container: curlprobe-15903
+25m         Normal    Pulled              pod/curlprobe-15903              Container image "curlimages/curl:8.10.1" already present on machine
+25m         Normal    Started             pod/curlprobe-15903              Started container curlprobe-15903
+25m         Normal    ScalingReplicaSet   deployment/driftapp              Scaled down replica set driftapp-7475776445 from 1 to 0
+25m         Normal    SuccessfulDelete    replicaset/driftapp-7475776445   Deleted pod: driftapp-7475776445-8f67x
+25m         Normal    Started             pod/curlprobe-16461              Started container curlprobe-16461
+25m         Normal    Pulled              pod/curlprobe-16461              Container image "curlimages/curl:8.10.1" already present on machine
+25m         Normal    Created             pod/curlprobe-16461              Created container: curlprobe-16461
+25m         Normal    Pulled              pod/curlprobe-16988              Container image "curlimages/curl:8.10.1" already present on machine
+25m         Normal    Created             pod/curlprobe-16988              Created container: curlprobe-16988
+25m         Normal    Started             pod/curlprobe-16988              Started container curlprobe-16988
+25m         Normal    Pulled              pod/curlprobe-17293              Container image "curlimages/curl:8.10.1" already present on machine
+25m         Normal    Created             pod/curlprobe-17293              Created container: curlprobe-17293
+25m         Normal    Started             pod/curlprobe-17293              Started container curlprobe-17293
+22m         Normal    Pulled              pod/curlprobe-18123              Container image "curlimages/curl:8.10.1" already present on machine
+22m         Normal    Created             pod/curlprobe-18123              Created container: curlprobe-18123
+22m         Normal    Started             pod/curlprobe-18123              Started container curlprobe-18123
+20m         Normal    Started             pod/curlprobe-18971              Started container curlprobe-18971
+20m         Normal    Created             pod/curlprobe-18971              Created container: curlprobe-18971
+20m         Normal    Pulled              pod/curlprobe-18971              Container image "curlimages/curl:8.10.1" already present on machine
+20m         Normal    Created             pod/curlprobe-19548              Created container: curlprobe-19548
+20m         Normal    Pulled              pod/curlprobe-19548              Container image "curlimages/curl:8.10.1" already present on machine
+20m         Normal    Started             pod/curlprobe-19548              Started container curlprobe-19548
+20m         Normal    Killing             pod/driftapp-5594586b-4kfqz      Stopping container driftapp
+20m         Normal    SuccessfulCreate    replicaset/driftapp-5594586b     Created pod: driftapp-5594586b-z7ssg
+20m         Normal    Pulled              pod/driftapp-5594586b-z7ssg      Container image "driftapp:dev" already present on machine
+20m         Normal    Started             pod/driftapp-5594586b-z7ssg      Started container driftapp
+20m         Normal    Created             pod/driftapp-5594586b-z7ssg      Created container: driftapp
+19m         Normal    Pulled              pod/curlprobe-20247              Container image "curlimages/curl:8.10.1" already present on machine
+19m         Normal    Created             pod/curlprobe-20247              Created container: curlprobe-20247
+19m         Normal    Started             pod/curlprobe-20247              Started container curlprobe-20247
+19m         Normal    Created             pod/curlprobe-20838              Created container: curlprobe-20838
+19m         Normal    Pulled              pod/curlprobe-20838              Container image "curlimages/curl:8.10.1" already present on machine
+19m         Normal    Started             pod/curlprobe-20838              Started container curlprobe-20838
+16m         Normal    Pulled              pod/curlprobe-21880              Container image "curlimages/curl:8.10.1" already present on machine
+16m         Normal    Created             pod/curlprobe-21880              Created container: curlprobe-21880
+16m         Normal    Started             pod/curlprobe-21880              Started container curlprobe-21880
+14m         Normal    Pulled              pod/curlprobe-22730              Container image "curlimages/curl:8.10.1" already present on machine
+14m         Normal    Created             pod/curlprobe-22730              Created container: curlprobe-22730
+14m         Normal    Started             pod/curlprobe-22730              Started container curlprobe-22730
+14m         Normal    Pulled              pod/curlprobe-23312              Container image "curlimages/curl:8.10.1" already present on machine
+14m         Normal    Created             pod/curlprobe-23312              Created container: curlprobe-23312
+14m         Normal    Started             pod/curlprobe-23312              Started container curlprobe-23312
+8m39s       Normal    Pulled              pod/curlprobe-25448              Container image "curlimages/curl:8.10.1" already present on machine
+8m39s       Normal    Created             pod/curlprobe-25448              Created container: curlprobe-25448
+8m38s       Normal    Started             pod/curlprobe-25448              Started container curlprobe-25448
+8m36s       Normal    ScalingReplicaSet   deployment/driftapp              Scaled up replica set driftapp-59cb9c49d9 from 0 to 1
+8m36s       Normal    SuccessfulCreate    replicaset/driftapp-59cb9c49d9   Created pod: driftapp-59cb9c49d9-tbpnq
+8m35s       Normal    Created             pod/driftapp-59cb9c49d9-tbpnq    Created container: driftapp
+8m35s       Normal    Started             pod/driftapp-59cb9c49d9-tbpnq    Started container driftapp
+8m35s       Normal    Pulled              pod/driftapp-59cb9c49d9-tbpnq    Container image "driftapp:dev" already present on machine
+8m34s       Normal    SuccessfulDelete    replicaset/driftapp-5594586b     Deleted pod: driftapp-5594586b-z7ssg
+8m34s       Normal    Pulled              pod/curlprobe-25448              Container image "curlimages/curl:8.10.1" already present on machine
+8m34s       Normal    Created             pod/curlprobe-25448              Created container: curlprobe-25448
+8m34s       Normal    Started             pod/curlprobe-25448              Started container curlprobe-25448
+8m34s       Normal    ScalingReplicaSet   deployment/driftapp              Scaled down replica set driftapp-5594586b from 1 to 0
+8m34s       Normal    Killing             pod/driftapp-5594586b-z7ssg      Stopping container driftapp
+8m30s       Normal    Started             pod/curlprobe-26193              Started container curlprobe-26193
+8m30s       Normal    Created             pod/curlprobe-26193              Created container: curlprobe-26193
+8m30s       Normal    Pulled              pod/curlprobe-26193              Container image "curlimages/curl:8.10.1" already present on machine
+7m56s       Normal    Created             pod/curlprobe-26716              Created container: curlprobe-26716
+7m56s       Normal    Pulled              pod/curlprobe-26716              Container image "curlimages/curl:8.10.1" already present on machine
+7m56s       Normal    Started             pod/curlprobe-26716              Started container curlprobe-26716
+5m22s       Normal    Pulled              pod/curlprobe-27926              Container image "curlimages/curl:8.10.1" already present on machine
+5m22s       Normal    Created             pod/curlprobe-27926              Created container: curlprobe-27926
+5m22s       Normal    Started             pod/curlprobe-27926              Started container curlprobe-27926
+3m18s       Normal    Pulled              pod/curlprobe-28787              Container image "curlimages/curl:8.10.1" already present on machine
+3m18s       Normal    Created             pod/curlprobe-28787              Created container: curlprobe-28787
+3m18s       Normal    Started             pod/curlprobe-28787              Started container curlprobe-28787
+3m11s       Normal    Created             pod/curlprobe-29362              Created container: curlprobe-29362
+3m11s       Normal    Pulled              pod/curlprobe-29362              Container image "curlimages/curl:8.10.1" already present on machine
+3m11s       Normal    Started             pod/curlprobe-29362              Started container curlprobe-29362
+3m7s        Normal    Pulled              pod/curlprobe-29733              Container image "curlimages/curl:8.10.1" already present on machine
+3m7s        Normal    Created             pod/curlprobe-29733              Created container: curlprobe-29733
+3m7s        Normal    Started             pod/curlprobe-29733              Started container curlprobe-29733
+2m33s       Normal    Pulled              pod/curlprobe-30329              Container image "curlimages/curl:8.10.1" already present on machine
+2m33s       Normal    Created             pod/curlprobe-30329              Created container: curlprobe-30329
+2m33s       Normal    Started             pod/curlprobe-30329              Started container curlprobe-30329

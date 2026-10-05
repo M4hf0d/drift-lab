@@ -1,0 +1,6 @@
+
+===== /ConfigMap driftapp-on/driftapp-config ======
+3c3
+<   greeting: DRIFTED
+---
+>   greeting: hello from git

@@ -1,0 +1,6 @@
+
+===== apps/Deployment driftapp-off/driftapp ======
+180c180
+<         image: driftapp:drifted
+---
+>         image: driftapp:dev

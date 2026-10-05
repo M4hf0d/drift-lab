@@ -1,0 +1,460 @@
+{
+  "metadata": {
+    "name": "driftapp-selfheal-off",
+    "namespace": "argocd",
+    "uid": "93753b18-e43a-43bd-82ed-a84f3381a8fe",
+    "resourceVersion": "22386",
+    "generation": 158,
+    "creationTimestamp": "2026-10-04T11:25:54Z",
+    "annotations": {
+      "argocd.argoproj.io/hydrate": "normal",
+      "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"argoproj.io/v1alpha1\",\"kind\":\"Application\",\"metadata\":{\"annotations\":{},\"name\":\"driftapp-selfheal-off\",\"namespace\":\"argocd\"},\"spec\":{\"destination\":{\"namespace\":\"driftapp-off\",\"server\":\"https://kubernetes.default.svc\"},\"project\":\"default\",\"source\":{\"path\":\"deploy\",\"repoURL\":\"https://github.com/M4hf0d/drift-lab.git\",\"targetRevision\":\"main\"},\"syncPolicy\":{\"automated\":{\"prune\":true,\"selfHeal\":false},\"syncOptions\":[\"CreateNamespace=true\"]}}}\n"
+    },
+    "managedFields": [
+      {
+        "manager": "kubectl-client-side-apply",
+        "operation": "Update",
+        "apiVersion": "argoproj.io/v1alpha1",
+        "time": "2026-10-04T11:25:54Z",
+        "fieldsType": "FieldsV1",
+        "fieldsV1": {
+          "f:metadata": {
+            "f:annotations": {
+              ".": {},
+              "f:kubectl.kubernetes.io/last-applied-configuration": {}
+            }
+          },
+          "f:spec": {
+            ".": {},
+            "f:destination": {
+              ".": {},
+              "f:namespace": {},
+              "f:server": {}
+            },
+            "f:project": {},
+            "f:source": {
+              ".": {},
+              "f:path": {},
+              "f:repoURL": {},
+              "f:targetRevision": {}
+            },
+            "f:syncPolicy": {
+              ".": {},
+              "f:automated": {
+                ".": {},
+                "f:prune": {},
+                "f:selfHeal": {}
+              },
+              "f:syncOptions": {}
+            }
+          }
+        }
+      },
+      {
+        "manager": "argocd-server",
+        "operation": "Update",
+        "apiVersion": "argoproj.io/v1alpha1",
+        "time": "2026-10-04T18:37:55Z",
+        "fieldsType": "FieldsV1",
+        "fieldsV1": {
+          "f:metadata": {
+            "f:annotations": {
+              "f:argocd.argoproj.io/hydrate": {}
+            }
+          }
+        }
+      },
+      {
+        "manager": "argocd-application-controller",
+        "operation": "Update",
+        "apiVersion": "argoproj.io/v1alpha1",
+        "time": "2026-10-04T18:40:45Z",
+        "fieldsType": "FieldsV1",
+        "fieldsV1": {
+          "f:status": {
+            ".": {},
+            "f:controllerNamespace": {},
+            "f:health": {
+              ".": {},
+              "f:lastTransitionTime": {},
+              "f:status": {}
+            },
+            "f:history": {},
+            "f:operationState": {
+              ".": {},
+              "f:finishedAt": {},
+              "f:message": {},
+              "f:operation": {
+                ".": {},
+                "f:initiatedBy": {
+                  ".": {},
+                  "f:username": {}
+                },
+                "f:retry": {},
+                "f:sync": {
+                  ".": {},
+                  "f:prune": {},
+                  "f:revision": {},
+                  "f:source": {
+                    ".": {},
+                    "f:path": {},
+                    "f:repoURL": {},
+                    "f:targetRevision": {}
+                  },
+                  "f:syncOptions": {},
+                  "f:syncStrategy": {
+                    ".": {},
+                    "f:hook": {
+                      ".": {},
+                      "f:force": {}
+                    }
+                  }
+                }
+              },
+              "f:phase": {},
+              "f:startedAt": {},
+              "f:syncResult": {
+                ".": {},
+                "f:resources": {},
+                "f:revision": {},
+                "f:source": {
+                  ".": {},
+                  "f:path": {},
+                  "f:repoURL": {},
+                  "f:targetRevision": {}
+                }
+              }
+            },
+            "f:reconciledAt": {},
+            "f:resourceHealthSource": {},
+            "f:resources": {},
+            "f:sourceHydrator": {},
+            "f:sourceType": {},
+            "f:summary": {
+              ".": {},
+              "f:images": {}
+            },
+            "f:sync": {
+              ".": {},
+              "f:comparedTo": {
+                ".": {},
+                "f:destination": {
+                  ".": {},
+                  "f:namespace": {},
+                  "f:server": {}
+                },
+                "f:source": {
+                  ".": {},
+                  "f:path": {},
+                  "f:repoURL": {},
+                  "f:targetRevision": {}
+                }
+              },
+              "f:revision": {},
+              "f:status": {}
+            }
+          }
+        }
+      }
+    ]
+  },
+  "spec": {
+    "source": {
+      "repoURL": "https://github.com/M4hf0d/drift-lab.git",
+      "path": "deploy",
+      "targetRevision": "main"
+    },
+    "destination": {
+      "server": "https://kubernetes.default.svc",
+      "namespace": "driftapp-off"
+    },
+    "project": "default",
+    "syncPolicy": {
+      "automated": {
+        "prune": true,
+        "selfHeal": false
+      },
+      "syncOptions": [
+        "CreateNamespace=true"
+      ]
+    }
+  },
+  "status": {
+    "resources": [
+      {
+        "version": "v1",
+        "kind": "ConfigMap",
+        "namespace": "driftapp-off",
+        "name": "driftapp-config",
+        "status": "Synced"
+      },
+      {
+        "version": "v1",
+        "kind": "Service",
+        "namespace": "driftapp-off",
+        "name": "driftapp",
+        "status": "Synced",
+        "health": {
+          "status": "Healthy"
+        }
+      },
+      {
+        "group": "apps",
+        "version": "v1",
+        "kind": "Deployment",
+        "namespace": "driftapp-off",
+        "name": "driftapp",
+        "status": "Synced",
+        "health": {
+          "status": "Healthy"
+        }
+      }
+    ],
+    "sync": {
+      "status": "Synced",
+      "comparedTo": {
+        "source": {
+          "repoURL": "https://github.com/M4hf0d/drift-lab.git",
+          "path": "deploy",
+          "targetRevision": "main"
+        },
+        "destination": {
+          "server": "https://kubernetes.default.svc",
+          "namespace": "driftapp-off"
+        }
+      },
+      "revision": "21e8f563275fd293fea11cf1ff054c60032bfa5b"
+    },
+    "health": {
+      "status": "Healthy",
+      "lastTransitionTime": "2026-10-04T18:38:00Z"
+    },
+    "history": [
+      {
+        "revision": "52ab0cad2e8b554f912c4ba30780c0a4a4863bed",
+        "deployedAt": "2026-10-04T17:49:01Z",
+        "id": 2,
+        "source": {
+          "repoURL": "https://github.com/M4hf0d/drift-lab.git",
+          "path": "deploy",
+          "targetRevision": "main"
+        },
+        "deployStartedAt": "2026-10-04T17:49:01Z",
+        "initiatedBy": {
+          "username": "admin"
+        }
+      },
+      {
+        "revision": "dfc7441f9e7403cf8c1c29ce2faef7a739719664",
+        "deployedAt": "2026-10-04T17:53:09Z",
+        "id": 3,
+        "source": {
+          "repoURL": "https://github.com/M4hf0d/drift-lab.git",
+          "path": "deploy",
+          "targetRevision": "main"
+        },
+        "deployStartedAt": "2026-10-04T17:53:08Z",
+        "initiatedBy": {
+          "username": "admin"
+        }
+      },
+      {
+        "revision": "dfc7441f9e7403cf8c1c29ce2faef7a739719664",
+        "deployedAt": "2026-10-04T17:59:05Z",
+        "id": 4,
+        "source": {
+          "repoURL": "https://github.com/M4hf0d/drift-lab.git",
+          "path": "deploy",
+          "targetRevision": "main"
+        },
+        "deployStartedAt": "2026-10-04T17:59:05Z",
+        "initiatedBy": {
+          "username": "admin"
+        }
+      },
+      {
+        "revision": "dfc7441f9e7403cf8c1c29ce2faef7a739719664",
+        "deployedAt": "2026-10-04T18:04:26Z",
+        "id": 5,
+        "source": {
+          "repoURL": "https://github.com/M4hf0d/drift-lab.git",
+          "path": "deploy",
+          "targetRevision": "main"
+        },
+        "deployStartedAt": "2026-10-04T18:04:25Z",
+        "initiatedBy": {
+          "username": "admin"
+        }
+      },
+      {
+        "revision": "dfc7441f9e7403cf8c1c29ce2faef7a739719664",
+        "deployedAt": "2026-10-04T18:09:52Z",
+        "id": 6,
+        "source": {
+          "repoURL": "https://github.com/M4hf0d/drift-lab.git",
+          "path": "deploy",
+          "targetRevision": "main"
+        },
+        "deployStartedAt": "2026-10-04T18:09:52Z",
+        "initiatedBy": {
+          "username": "admin"
+        }
+      },
+      {
+        "revision": "dfc7441f9e7403cf8c1c29ce2faef7a739719664",
+        "deployedAt": "2026-10-04T18:15:17Z",
+        "id": 7,
+        "source": {
+          "repoURL": "https://github.com/M4hf0d/drift-lab.git",
+          "path": "deploy",
+          "targetRevision": "main"
+        },
+        "deployStartedAt": "2026-10-04T18:15:16Z",
+        "initiatedBy": {
+          "username": "admin"
+        }
+      },
+      {
+        "revision": "dfc7441f9e7403cf8c1c29ce2faef7a739719664",
+        "deployedAt": "2026-10-04T18:21:12Z",
+        "id": 8,
+        "source": {
+          "repoURL": "https://github.com/M4hf0d/drift-lab.git",
+          "path": "deploy",
+          "targetRevision": "main"
+        },
+        "deployStartedAt": "2026-10-04T18:21:11Z",
+        "initiatedBy": {
+          "username": "admin"
+        }
+      },
+      {
+        "revision": "21e8f563275fd293fea11cf1ff054c60032bfa5b",
+        "deployedAt": "2026-10-04T18:27:03Z",
+        "id": 9,
+        "source": {
+          "repoURL": "https://github.com/M4hf0d/drift-lab.git",
+          "path": "deploy",
+          "targetRevision": "main"
+        },
+        "deployStartedAt": "2026-10-04T18:27:03Z",
+        "initiatedBy": {
+          "username": "admin"
+        }
+      },
+      {
+        "revision": "21e8f563275fd293fea11cf1ff054c60032bfa5b",
+        "deployedAt": "2026-10-04T18:32:31Z",
+        "id": 10,
+        "source": {
+          "repoURL": "https://github.com/M4hf0d/drift-lab.git",
+          "path": "deploy",
+          "targetRevision": "main"
+        },
+        "deployStartedAt": "2026-10-04T18:32:30Z",
+        "initiatedBy": {
+          "username": "admin"
+        }
+      },
+      {
+        "revision": "21e8f563275fd293fea11cf1ff054c60032bfa5b",
+        "deployedAt": "2026-10-04T18:37:55Z",
+        "id": 11,
+        "source": {
+          "repoURL": "https://github.com/M4hf0d/drift-lab.git",
+          "path": "deploy",
+          "targetRevision": "main"
+        },
+        "deployStartedAt": "2026-10-04T18:37:54Z",
+        "initiatedBy": {
+          "username": "admin"
+        }
+      }
+    ],
+    "reconciledAt": "2026-10-04T18:40:45Z",
+    "operationState": {
+      "operation": {
+        "sync": {
+          "revision": "21e8f563275fd293fea11cf1ff054c60032bfa5b",
+          "prune": true,
+          "syncStrategy": {
+            "hook": {
+              "force": true
+            }
+          },
+          "source": {
+            "repoURL": "https://github.com/M4hf0d/drift-lab.git",
+            "path": "deploy",
+            "targetRevision": "main"
+          },
+          "syncOptions": [
+            "CreateNamespace=true"
+          ]
+        },
+        "initiatedBy": {
+          "username": "admin"
+        },
+        "retry": {}
+      },
+      "phase": "Succeeded",
+      "message": "successfully synced (all tasks run)",
+      "syncResult": {
+        "resources": [
+          {
+            "group": "",
+            "version": "v1",
+            "kind": "ConfigMap",
+            "namespace": "driftapp-off",
+            "name": "driftapp-config",
+            "status": "Synced",
+            "message": "configmap/driftapp-config unchanged",
+            "hookPhase": "Running",
+            "syncPhase": "Sync"
+          },
+          {
+            "group": "",
+            "version": "v1",
+            "kind": "Service",
+            "namespace": "driftapp-off",
+            "name": "driftapp",
+            "status": "Synced",
+            "message": "service/driftapp unchanged",
+            "hookPhase": "Running",
+            "syncPhase": "Sync"
+          },
+          {
+            "group": "apps",
+            "version": "v1",
+            "kind": "Deployment",
+            "namespace": "driftapp-off",
+            "name": "driftapp",
+            "status": "Synced",
+            "message": "deployment.apps/driftapp unchanged",
+            "hookPhase": "Running",
+            "syncPhase": "Sync",
+            "images": [
+              "driftapp:dev"
+            ]
+          }
+        ],
+        "revision": "21e8f563275fd293fea11cf1ff054c60032bfa5b",
+        "source": {
+          "repoURL": "https://github.com/M4hf0d/drift-lab.git",
+          "path": "deploy",
+          "targetRevision": "main"
+        }
+      },
+      "startedAt": "2026-10-04T18:37:54Z",
+      "finishedAt": "2026-10-04T18:37:55Z"
+    },
+    "sourceType": "Kustomize",
+    "summary": {
+      "images": [
+        "driftapp:dev"
+      ]
+    },
+    "resourceHealthSource": "appTree",
+    "controllerNamespace": "argocd",
+    "sourceHydrator": {}
+  }
+}
