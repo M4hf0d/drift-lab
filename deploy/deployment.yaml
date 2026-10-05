@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: driftapp
+  labels:
+    app: driftapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: driftapp
+  template:
+    metadata:
+      labels:
+        app: driftapp
+    spec:
+      containers:
+        - name: driftapp
+          image: driftapp:dev
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+          env:
+            - name: APP_VERSION
+              value: "v1"
+            # Read once at process start. A ConfigMap edit alone will NOT
+            # change this -- the pod must restart to pick up a new value.
+            - name: GREETING
+              valueFrom:
+                configMapKeyRef:
+                  name: driftapp-config
+                  key: greeting
+          volumeMounts:
+            # Same ConfigMap, mounted as a file. kubelet syncs this
+            # in-place on edit (no restart), typically within ~1 minute.
+            - name: config-vol
+              mountPath: /config
+            # Secret is created manually by scripts/setup.sh and is
+            # intentionally NOT tracked in this repo.
+            - name: secret-vol
+              mountPath: /secret
+              readOnly: true
+      volumes:
+        - name: config-vol
+          configMap:
+            name: driftapp-config
+            items:
+              - key: greeting
+                path: greeting
+        - name: secret-vol
+          secret:
+            secretName: driftapp-secret
