@@ -1,0 +1,27 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: shellcheck
+        run: shellcheck scripts/*.sh
+
+      - name: render kustomize
+        run: kubectl kustomize deploy/ > /dev/null
+
+      - name: python syntax
+        run: python3 -m py_compile app/main.py
+
+      - name: build image
+        run: docker build -t driftapp:ci ./app
