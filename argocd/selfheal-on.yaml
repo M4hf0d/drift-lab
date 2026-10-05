@@ -1,0 +1,27 @@
+# Same app, selfHeal ENABLED: on top of auto-sync + prune, Argo actively
+# reverts live drift back to Git on its own reconciliation loop (default
+# ~3min full reconcile, plus a faster path triggered by watched-resource
+# change events), without anyone running `argocd app sync`.
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: driftapp-selfheal-on
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/M4hf0d/drift-lab.git
+    targetRevision: main
+    path: deploy
+  destination:
+    server: https://kubernetes.default.svc
+    # Separate namespace from the selfheal-off Application so both can
+    # exist side by side without two Applications owning the same
+    # resources.
+    namespace: driftapp-on
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true

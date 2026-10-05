@@ -1,0 +1,28 @@
+# Application with automated sync + prune, but selfHeal DISABLED.
+# Argo will prune resources that leave Git and apply changes made IN Git,
+# but it will NOT revert live drift on its own -- drift sits as OutOfSync
+# until something (a manual `argocd app sync`, or the next auto-sync pass
+# triggered by a Git change) corrects it.
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: driftapp-selfheal-off
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/M4hf0d/drift-lab.git
+    targetRevision: main
+    path: deploy
+  destination:
+    server: https://kubernetes.default.svc
+    # Separate namespace from the selfheal-on Application so both can
+    # exist side by side without two Applications owning the same
+    # resources.
+    namespace: driftapp-off
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: false
+    syncOptions:
+      - CreateNamespace=true
