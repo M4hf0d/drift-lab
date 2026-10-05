@@ -1,0 +1,7 @@
+.DS_Store
+*.swp
+CLAUDE.md
+.claude/
+__pycache__/
+NOTES.md
+Checklist.md
